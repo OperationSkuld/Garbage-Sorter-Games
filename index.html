@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Garbage Sorter Example</title>
+    <script src="src/js/easel.min.js"></script>
+    <script src="src/js/ContentManager.js"></script>
+    <script src="src/js/Garbage.js"></script>
+    <script src="src/js/Level.js" type="text/javascript"></script>
+    <script src="src/js/GarbageBin.js" type="text/javascript"></script>
+    <script src="src/js/main.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			init()
+		}
+	</script>
+</head>
+<body>
+    <div class="canvasHolder">
+        <canvas id="canvas" style="background-color:#AAAAAA" height="656" width="837">
+            Your browser doesn't support canvas.
+        </canvas>
+    </div>
+    <button id="Start" onclick="startGame();">Start</button>
+    <button id="Reset" onclick="reset();">Reset</button>
+</body>
+</html>
